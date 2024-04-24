@@ -1,0 +1,7 @@
+.logo-hover-shadow > img {
+	transition: 0.3s;
+}
+
+.logo-hover-shadow:hover > img {
+	filter: drop-shadow(0 0 11px var(--accent-green));
+}
