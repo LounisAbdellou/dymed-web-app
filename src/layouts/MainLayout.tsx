@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 // Utilities
 import * as styled from "@styles/mainLayoutStyle";
+import { arrowIcon } from "@assets"
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 	const { t } = useTranslation();
@@ -29,7 +30,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 						<styled.UserProfileImg src={null} />
 						<styled.UsernameContainer>
 							<styled.Username>Lounis</styled.Username>
-							<styled.DropdownArrow src={null} />
+							<styled.DropdownArrow className="black-filter" src={arrowIcon} />
 						</styled.UsernameContainer>
 					</styled.UserDropdown>
 				</styled.EndContainer>

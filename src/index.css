@@ -10,7 +10,7 @@ body,
 }
 
 #root {
-	--text: #0f100f;
+	--text: #000000;
 	--background: #f9fbfa;
 	--primary: #50c388;
 	--secondary: #7febb3;

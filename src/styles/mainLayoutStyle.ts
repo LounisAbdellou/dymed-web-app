@@ -16,8 +16,8 @@ export const NavBar = styled.div`
 	align-items: center;
 	padding-left: 12px;
 	padding-right: 12px;
-	border-bottom: solid 1px var(--accent-green);
-	background-color: #303030;
+	border-bottom: solid 1px var(--text);
+	background-color: var(--primary);
 `;
 
 export const StartContainer = styled.div`
@@ -78,7 +78,7 @@ export const UserDropdown = styled.div`
 	gap: 12px;
 	height: 50px;
 	padding: 0px 4px;
-	background-color: var(--background);
+	background-color: var(--secondary);
 	border-radius: 3px;
 `;
 
@@ -120,6 +120,4 @@ export const DropdownArrow = styled.img`
 	margin-top: 3px;
 	padding-left: 3px;
 	transform: rotate(270deg);
-	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(58deg)
-		brightness(103%) contrast(106%);
 `;
