@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
 
 html,
 body,
@@ -16,7 +16,7 @@ body,
 	--secondary: #7febb3;
 	--accent-red: #d10000;
 	--accent-green: #3ffd9b;
-	
+
 	--heading-large: 26px;
 	--heading-medium: 22px;
 	--heading-small: 18px;

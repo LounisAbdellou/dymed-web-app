@@ -15,7 +15,7 @@ const HomePage = () => {
 		<MainLayout>
 			<styled.MainContainer>HomePage</styled.MainContainer>
 		</MainLayout>
-	); 
+	);
 };
 
 export default HomePage;

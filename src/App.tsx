@@ -15,6 +15,6 @@ const App = () => {
 			<Route path="/" element={<HomePage />} />
 		</Routes>
 	);
-}
+};
 
 export default App;
